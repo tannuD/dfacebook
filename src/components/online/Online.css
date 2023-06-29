@@ -1,0 +1,35 @@
+
+.rightbaronlinefriendlist{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.rightbaronlinefriends{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.rightbaronlineimagecontainer{
+    margin-right: 10px;
+    position: relative;
+}
+.rightbaronlinefriendimage{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    object-fit: cover;
+}
+.rightbaronlinefriendbadge{
+    width: 15px;
+    height: 15px;
+    background-color: green;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: absolute;
+    z-index: 11;
+    right: 5px;
+}
+.rightbaronlinefriendtext{
+    font-weight: 500;
+}
